@@ -316,3 +316,143 @@ a {
   font-weight: 400;
   line-height: 175%;
 }
+/* features */
+.features {
+  padding: 170px 0;
+}
+.features__inner {
+  display: flex;
+  align-items: center;
+  column-gap: 130px;
+}
+.features__media {
+  width: 48%;
+}
+.features__images {
+  position: relative;
+  padding: 0 58px 121px 0;
+}
+.features__img {
+  width: 512px;
+  height: 370px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+.features__img:last-child {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  width: 332px;
+  height: 370px;
+}
+.features__cta {
+  margin-top: 38px;
+}
+/* member */
+.member__heading,
+.member__cta {
+  text-align: center;
+}
+.member__cta {
+  font-size: 1.8rem;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 205px;
+  margin-top: 38px;
+}
+.member__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+  margin-top: 70px;
+}
+.member-item__img-bg {
+  background: #eaf6ff;
+  border-radius: 6px;
+  padding-top: 28px;
+  overflow: hidden;
+}
+.member-item__thumb {
+  display: block;
+  max-width: 100%;
+  height: 290px;
+  object-fit: cover;
+}
+.member-item__name {
+  color: #10375c;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 175%;
+  margin-top: 12px;
+}
+.member-item__desc {
+  color: #575f66;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 185%;
+}
+.member__control {
+  display: flex;
+  justify-content: center;
+  margin-top: 38px;
+  column-gap: 18px;
+}
+.member__control-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #575f66;
+  outline: none;
+  background-color: #fff;
+  color: #575f66;
+  transition: 0.25s;
+}
+.member__control-btn:hover {
+  border-color: #2e80ce;
+  background-color: #2e80ce;
+  color: #fff;
+  cursor: pointer;
+}
+.member__control-next-icon {
+  rotate: 180deg;
+}
+/* app */
+.app {
+  margin: 255px 0 170px;
+}
+.app__row {
+  padding: 0 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  background: #2e80ce;
+}
+.app__img {
+  display: block;
+  margin-top: -95px;
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+}
+.app__info {
+  max-width: 586px;
+}
+.app__desc,
+.app__heading {
+  color: #fff;
+}
+.app__heading {
+  max-width: 489px;
+}
+.app__download {
+  display: flex;
+  margin-top: 38px;
+  column-gap: 28px;
+}
